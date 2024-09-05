@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.divisoria {
+    display: flex;
+    flex-direction: row;
+}
+
+.Sobre-mim-lado-a {
+    width: 30%;
+    background-color:#C4DAD2;
+}
+
+.conteudo-lado-a {
+    padding: 10px;
+    margin: 15px;
+}
+
+.foto-perfil {
+    display: block;
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+h1 {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30pt;
+}
+
+h2 {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+    margin-bottom: 30px;
+    border-bottom: 1.5px solid ;
+}
+
+h3 {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+    color: #000;
+    margin: 10px;
+}
+
+.competencias-lado-b {
+    width: 50%;
+    background-color:#ffff;
+}
+
+.conteudo-lado-b {
+    padding: 10px;
+    margin: 15px;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.contato img {
+    margin-right: 10px;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+.conteudo-idiomas {
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        width: 1000px;
+    }
+
+    .Sobre-mim-lado-a {
+        width: 40%;
+        background-color:#6A9C89;
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        width: 750px;
+    }
+
+    .Sobre-mim-lado-a {
+        width: 40%;
+        background-color:#E9EFEC;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 500px;
+    }
+
+    .Sobre-mim-lado-a {
+        width: 30%;
+        background-color:#AAB396;
+    }
+
+    .foto-perfil  {
+        width: 115%;
+    }
+    
+}
+
